@@ -47,6 +47,4 @@ Presentation slides can be found in the ```\Presentation``` folder.
 * NEAT-Python: https://neat-python.readthedocs.io
 * Pygame: https://www.pygame.org
 
-ㅤ
-ㅤ
 V Semester AI Project made by: Akshath, Sankalpa, Apratim and Raja. 
