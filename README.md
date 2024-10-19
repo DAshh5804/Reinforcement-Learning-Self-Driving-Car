@@ -26,6 +26,8 @@ This project leverages NEAT (NeuroEvolution of Augmenting Topologies) to train a
 # Usage
 1. Run the model
    ```python .\Code\model.py```
+   (change map name in ```simulation.py``` to switch maps)
+   
 
 # Simulation details
 ## Car Sensors:
