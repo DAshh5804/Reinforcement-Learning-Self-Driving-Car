@@ -23,7 +23,7 @@ def run_simulation(genomes, config):
     clock = pygame.time.Clock()
     generation_font = pygame.font.SysFont("Arial", 30)
     alive_font = pygame.font.SysFont("Arial", 20)
-    game_map = pygame.image.load('AI-Project/Code/map2.png').convert()
+    game_map = pygame.image.load('AI-Project/Code/map.png').convert()  #change map name (to map2 or map3) to switch maps
 
     global current_generation
     current_generation += 1
