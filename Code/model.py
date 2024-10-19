@@ -2,7 +2,7 @@ import neat
 from simulation import run_simulation
 
 def main():
-    config_path = './config.txt'
+    config_path = 'AI-Project/Code/config.txt'
     config = neat.config.Config(neat.DefaultGenome,
                                 neat.DefaultReproduction,
                                 neat.DefaultSpeciesSet,
