@@ -3,12 +3,11 @@ import pygame
 
 CAR_SIZE_X = 60    
 CAR_SIZE_Y = 60
-BORDER_COLOR = (255, 255, 255, 255)  # Color to crash on hit
+BORDER_COLOR = (255, 255, 255, 255) 
 
 class Car:
 
     def __init__(self):
-        # Load Car Sprite and Rotate
         self.sprite = pygame.image.load('AI-Project/Code/car.png').convert()
         self.sprite = pygame.transform.scale(self.sprite, (CAR_SIZE_X, CAR_SIZE_Y))
         self.rotated_sprite = self.sprite 
@@ -17,24 +16,23 @@ class Car:
         self.angle = 0
         self.speed = 0
 
-        self.speed_set = False  # Flag for default speed later on
+        self.speed_set = False 
 
-        self.center = [self.position[0] + CAR_SIZE_X / 2, self.position[1] + CAR_SIZE_Y / 2]  # Calculate Center
+        self.center = [self.position[0] + CAR_SIZE_X / 2, self.position[1] + CAR_SIZE_Y / 2]
 
-        self.radars = []  # List for sensors / radars
-        self.drawing_radars = []  # Radars to be drawn
+        self.radars = [] 
+        self.drawing_radars = []
 
-        self.alive = True  # Boolean to check if car is crashed
+        self.alive = True 
 
-        self.distance = 0  # Distance driven
-        self.time = 0  # Time passed
+        self.distance = 0  
+        self.time = 0 
 
     def draw(self, screen):
-        screen.blit(self.rotated_sprite, self.position)  # Draw sprite
-        self.draw_radar(screen)  # Optionally draw radars
+        screen.blit(self.rotated_sprite, self.position) 
+        self.draw_radar(screen) 
 
     def draw_radar(self, screen):
-        # Optionally draw all radars
         for radar in self.radars:
             position = radar[0]
             pygame.draw.line(screen, (0, 255, 0), self.center, position, 1)
@@ -43,7 +41,6 @@ class Car:
     def check_collision(self, game_map):
         self.alive = True
         for point in self.corners:
-            # If any corner touches border color -> crash
             if game_map.get_at((int(point[0]), int(point[1]))) == BORDER_COLOR:
                 self.alive = False
                 break
