@@ -8,7 +8,7 @@ BORDER_COLOR = (255, 255, 255, 255)
 class Car:
 
     def __init__(self):
-        self.sprite = pygame.image.load('AI-Project/Code/car.png').convert()
+        self.sprite = pygame.image.load('./Code/car.png').convert()
         self.sprite = pygame.transform.scale(self.sprite, (CAR_SIZE_X, CAR_SIZE_Y))
         self.rotated_sprite = self.sprite 
 
