@@ -14,7 +14,7 @@ This project leverages NEAT (NeuroEvolution of Augmenting Topologies) to train a
 
 # Setup & Installation
 ## Prerequisites
-1. Python 3.x
+1. Python 3.12.x
 2. Pygame library
 3. NEAT-Python library
 
