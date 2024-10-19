@@ -9,7 +9,7 @@ class Car:
 
     def __init__(self):
         # Load Car Sprite and Rotate
-        self.sprite = pygame.image.load('./Code/car.png').convert()
+        self.sprite = pygame.image.load('AI-Project/Code/car.png').convert()
         self.sprite = pygame.transform.scale(self.sprite, (CAR_SIZE_X, CAR_SIZE_Y))
         self.rotated_sprite = self.sprite 
 
