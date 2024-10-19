@@ -26,8 +26,8 @@ This project leverages NEAT (NeuroEvolution of Augmenting Topologies) to train a
 # Usage
 Run the model
 ```python .\Code\model.py```  
-(change map name in ```simulation.py``` to switch maps)  
-![Screenshot 2024-10-19 085109](https://github.com/user-attachments/assets/cb45ea2b-5fcf-4ffb-8c89-63600b975dd2)
+   (change map name in ```simulation.py``` to switch maps)  
+ ![Screenshot 2024-10-19 085109](https://github.com/user-attachments/assets/cb45ea2b-5fcf-4ffb-8c89-63600b975dd2)
    
 
 # Simulation details
