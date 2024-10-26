@@ -49,5 +49,6 @@ Presentation slides can be found in the ```\Presentation``` folder.
 # Acknowledgements
 * NEAT-Python: https://neat-python.readthedocs.io
 * Pygame: https://www.pygame.org
+* NeuralNine GitHub
 
 V Semester AI Project made by: Akshath, Sankalpa, Apratim and Raja. 
