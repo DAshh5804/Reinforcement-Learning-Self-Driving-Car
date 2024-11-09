@@ -51,4 +51,3 @@ Presentation slides can be found in the ```\Presentation``` folder.
 * Pygame: (https://www.pygame.org)
 * [NeuralNine GitHub](https://github.com/NeuralNine)
 
-V Semester AI Project made by: Akshath, Sankalpa, Apratim and Raja. 
